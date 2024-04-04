@@ -22,4 +22,8 @@ If you do not need to save the files as CSV, you can remove `FileFormat:=xlCSV` 
 ```
 .SaveAs Filename:=ThisWorkbook.Path & "/" & sheet.Name, FileFormat:=xlCSV
 ```
+After modification, the line should look like this:
+```
+.SaveAs Filename:=ThisWorkbook.Path & "/" & sheet.Name
+```
 By doing so, the files will be saved in the default Excel format (.xlsx).
