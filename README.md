@@ -8,8 +8,10 @@ This is a VBA project for splitting each worksheet in an Excel workbook into sep
 
 ## How to Use
 1. Right-click on a sheet at the bottom of the Excel window and click on the "View Code" button.
-2. This will open the Excel VBA editor. 
+   ![](pic1.jpg)
+2. This will open the Excel VBA editor.
 3. Copy the code from the `main.vbs` file in the repository into the VBA editor.
+   ![](pic2.jpg)
 4. Run the `Split_Sheet` subroutine.
 5. In the folder where your Excel workbook is located, you will find CSV files named after each worksheet.
 
