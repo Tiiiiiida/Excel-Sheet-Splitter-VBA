@@ -1,9 +1,6 @@
 # Excel-Sheet-Splitter-VBA
 A VBA project to split each worksheet in an Excel workbook into separate CSV files.
 
-# Excel Sheet Splitter
-This is a VBA project for splitting each worksheet in an Excel workbook into separate CSV files.
-
 ## Features
 - Splits each worksheet in an Excel workbook into a separate CSV file.
 - Each CSV file is named after the original worksheet.
