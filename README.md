@@ -17,3 +17,9 @@ This is a VBA project for splitting each worksheet in an Excel workbook into sep
 
 ## Note
 Screen updates and alert prompts in Excel will be turned off during execution to increase code efficiency. Please ensure that you have saved and closed all important Excel workbooks before running these codes.
+
+If you do not need to save the files as CSV, you can remove `FileFormat:=xlCSV` from the following line of code:
+```
+.SaveAs Filename:=ThisWorkbook.Path & "/" & sheet.Name, FileFormat:=xlCSV
+```
+By doing so, the files will be saved in the default Excel format (.xlsx).
